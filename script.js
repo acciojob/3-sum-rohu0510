@@ -2,7 +2,7 @@ function threeSum(arr, target) {
   //your code here
 	arr.sort((a, b) => a-b);
 
-	let csum= infinity;
+	let csum= Infinity;
 	for(let i=0; i<arr.length-2; i++){
 		let l=i+1, r=arr.length-1;
 		while (l <r) {
